@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "923202548964",
+    "project_id": "jagruk-janta-ca62d",
+    "storage_bucket": "jagruk-janta-ca62d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923202548964:android:a02ae26ae933d23ba5e8f1",
+        "android_client_info": {
+          "package_name": "com.example.jagrukjanta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923202548964-im88qhc5m36c93k5f6me8521chsb8vsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlAhGP8Kpo7ebxWzylLnDsOrxrzfdCuzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923202548964-im88qhc5m36c93k5f6me8521chsb8vsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
