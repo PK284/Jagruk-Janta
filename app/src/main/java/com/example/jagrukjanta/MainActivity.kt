@@ -45,6 +45,8 @@ class MainActivity : AppCompatActivity() {
                         auth.signInWithEmailAndPassword(emailid, password).addOnCompleteListener(this) {
                             if (it.isSuccessful) {
                                 Toast.makeText(this, "Successfully LoggedIn", Toast.LENGTH_SHORT).show()
+                                intent = Intent(applicationContext,cameraPage::class.java)
+                                startActivity(intent)
                             } else
                                 Toast.makeText(this, "Log In failed ", Toast.LENGTH_SHORT).show()
                         }
