@@ -61,6 +61,7 @@ class Signup : AppCompatActivity() {
 
         register.setOnClickListener {
             validatenewuser()
+            Toast.makeText(this,"Show",Toast.LENGTH_SHORT).show()
         }
 
     }
