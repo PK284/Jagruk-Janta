@@ -7,16 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="#3ad7a3">
+    android:background="@drawable/gradient_background">
+
+
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Jagruk Janta"
         android:gravity="center"
         android:textSize="43dp"
-        android:fontFamily="cursive"
         android:textStyle="bold"
         android:paddingTop="28dp"
         android:paddingBottom="15dp"/>
@@ -34,6 +35,14 @@
 <!--                    android:background="@drawable/greybg"-->
 <!--                    android:hint="Name" />-->
 <!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/logo"
+        />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -64,12 +73,22 @@
                 android:textColorHint="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
+    <Button
+        android:id="@+id/btn"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/button_design"
+        android:text="Log In" />
+
+
     <TextView
         android:id="@+id/signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="#FF0000"
         android:fontFamily="serif"
         android:textStyle="italic"
         android:textSize="18sp"
@@ -78,13 +97,6 @@
 
 
 
-    <Button
-        android:id="@+id/btn"
-        android:layout_margin="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Log In" />
 
 
 </LinearLayout>
